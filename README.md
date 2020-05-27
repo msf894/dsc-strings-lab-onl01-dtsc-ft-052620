@@ -34,7 +34,7 @@ flatiron_mantra.capitalize()
 
 ```python
 num_to_string = 1234
-num_to_string
+str(num_to_string)
 ```
 
 **4.** Let's take the `num_to_string` and add it to the beginning of our street address below. We need to concatenate the variable to the beginning of our string so that we have our full address all in one string and assigned to the variable `full_address`. **hint:** `None` *is a placeholder in the below code for you to edit*
