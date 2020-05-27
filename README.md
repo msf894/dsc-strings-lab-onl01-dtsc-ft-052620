@@ -18,7 +18,7 @@ Follow the steps below to manipulate the strings and assign the values to the va
 
 ```python
 sentence = "woW WE LOVE cOdInG and strINGS!"
-sentence
+sentence.title()
 ```
 
 **2.** Next, we have our Flatiron mantra, but it's not in title case like it should be! Let's fix that and use another string method that makes all strings first letter capitalized. 
@@ -26,7 +26,7 @@ sentence
 
 ```python
 flatiron_mantra = "learn. love. code."
-flatiron_mantra
+flatiron_mantra.capitalize()
 ```
 
 **3.** The next thing we want to do is practice turning other data types into strings. Below, we have a number `1234`, which happens to be our street number in our address, which is a string. So, let's turn the number into a string so we can eventually add it to our address. The process of linking different strings together is called **concatenation**. 
@@ -41,7 +41,7 @@ num_to_string
 
 
 ```python
-full_address = None + " Abc street, Hometown USA"
+full_address = str(num_to_string) + " Abc street, Hometown USA"
 full_address
 ```
 
@@ -57,7 +57,7 @@ help(str)
 
 ```python
 name = "Bart Simpson"
-name = #Your code here; update the variable name
+name.replace("Simpson","Flanders")
 ```
 
 ## Summary
